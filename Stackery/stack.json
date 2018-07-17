@@ -13,7 +13,7 @@
       "storageSize": 5,
       "backupRetentionPeriod": 0,
       "instanceType": "db.t2.micro",
-      "rootPassword": "${config.dbPassword}",
+      "rootPassword": "movieref",
       "failover": false,
       "skipNameResolution": false
     },
