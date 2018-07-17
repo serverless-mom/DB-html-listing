@@ -68,11 +68,12 @@
     {
       "id": "b2e989b8",
       "type": "custom",
-      "x": 370,
-      "y": 355,
+      "x": 460,
+      "y": 360,
       "width": 100,
       "height": 30,
-      "name": "Trigger Seed Database"
+      "name": "Trigger Seed Database",
+      "implements": "none"
     }
   ]
 }
