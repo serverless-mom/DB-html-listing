@@ -20,8 +20,8 @@
     {
       "id": "5cc4816b",
       "type": "function",
-      "x": 370,
-      "y": 200,
+      "x": 385,
+      "y": 135,
       "width": 100,
       "height": 30,
       "name": "List Accounts",
@@ -74,6 +74,30 @@
       "height": 30,
       "name": "Trigger Seed Database",
       "implements": "none"
+    },
+    {
+      "id": "93ED870E",
+      "type": "http",
+      "x": 160,
+      "y": 215,
+      "width": 240,
+      "height": 160
+    },
+    {
+      "id": "9BC61C06",
+      "type": "restApiEndpoint",
+      "x": 115,
+      "y": 225,
+      "width": 100,
+      "height": 35,
+      "name": "",
+      "path": "/",
+      "method": "GET",
+      "wires": [
+        [
+          "5cc4816b"
+        ]
+      ]
     }
   ]
 }
